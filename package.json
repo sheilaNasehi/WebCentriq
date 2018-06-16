@@ -35,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmirNasehi/Home.git"
+    "url": "git+https://github.com/sheilaNasehi/WebCentriq"
   },
   "author": "Amir Nasehi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AmirNasehi/Home/issues"
+    "url": "https://github.com/sheilaNasehi/WebCentriq"
   },
   "homepage": "https://github.com/AmirNasehi/Home#readme"
 }

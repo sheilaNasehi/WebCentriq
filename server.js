@@ -9,7 +9,7 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3001;
 
-const {MONGODB_URI} = require('./config/');
+const { MONGODB_URI } = require('./config/');
 require('./libs/db-connection');
 
 
@@ -26,10 +26,10 @@ app.use((req, res, next) => {
 })
 
 // app.use(express.static(path.join(__dirname,'/public')));
-app.use(require('./routes/')); // main routes
+// app.use(require('./routes/')); // main routes
 
 // if (process.env.NODE_ENV === 'production') {
-    // app.use(express.static(path.join(__dirname, 'client/build')));
+// app.use(express.static(path.join(__dirname, 'client/build')));
 //     app.use(express.static('client/build'));
 //   }
 
@@ -43,6 +43,6 @@ app.use(require('./routes/')); // main routes
 //we need to use the next line to push the app in heroku
 app.use(express.static("client/build"));
 
-  server.listen(PORT, function () {
+server.listen(PORT, function () {
     console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
