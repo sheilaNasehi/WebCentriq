@@ -1,0 +1,98 @@
+.service{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.068);
+}
+.contentbox{
+height: 630px;
+    }
+
+.text-head{
+    padding:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    font-size: 4rem;
+
+    /* background-color: #0A337F ;  */
+    background-color: #88807B; 
+    color: snow;
+    
+}
+.text-head:hover{
+background-color: rgb(255, 255, 255) ; 
+color: #0A337F ;
+transition-delay: 10ms;
+transition-duration: 1s;
+
+}
+.wrap{
+    display: flex;
+    height: 100%; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.a{
+    position: relative;
+    /* background-color: gainsboro; */
+    text-align: center;
+    padding: 20px;
+}
+.aa{
+    position: relative;
+    /* background-color: bisque; */
+    text-align: center;
+    padding: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.61);
+    
+    
+    
+}
+
+.aaa{
+    position: relative;
+    /* background-color: gainsboro; */
+    text-align: center;
+    padding: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.61);
+    
+}
+.aaaa{
+    position: relative;
+    /* background-color: bisque; */
+    text-align: center;   
+    padding: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.61);
+    
+     
+}
+.pic1{
+ height: 150px;
+ width: 150px;
+ margin-top: 2rem;
+}
+
+.pic2{
+    height: 165px;
+    width: 165px;
+    margin-top: 2rem;
+}
+.pic3{
+    height: 180px;
+    width: 180px;
+    margin-top: 2rem;
+    
+   }
+   .pic4{
+    height: 150px;
+    width: 230px;
+    margin-top: 2rem;    
+   }
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(114, 108, 108);
+}
+
+.secondimage{
+    opacity: 0.2;
+}

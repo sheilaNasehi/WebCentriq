@@ -1,0 +1,166 @@
+    .portfolio{
+        margin-top: 2rem;
+        height: 750px;
+        overflow: hidden;
+        width: 100%;
+        /* background-color: #e2ecff; */
+/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%230045f7' fill-opacity='0.18' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"); */
+    }
+    .text-head{
+        padding:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        
+        font-size: 4rem;
+
+        background-color: #88807B; 
+        color: snow;
+        
+    }
+    .text-head:hover{
+    background-color: rgb(255, 255, 255) ; 
+    color: #0A337F ;
+    transition: linear;
+    transition-delay: 10ms;
+    transition-duration: 1s;
+    cursor: pointer;
+    }
+
+.feu1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center;
+}
+.dot{
+    text-align: center;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.582);
+    
+}
+    .unlike{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 0px;
+        
+    }
+    .mockup{
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding: 48px;
+        margin-left: 140px;
+    }
+    .mc1{
+        z-index: 1;
+        background-image: url(../../img/mock2.jpg);
+    background-size: 350px 200px;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.205);    
+
+
+        background-color: rgba(170, 167, 164, 0.295);
+        width: 330px;
+        height: 200px;
+        margin: 30px;
+        cursor: pointer;
+    }
+    .mc1:hover{
+        opacity: 0.80;
+        transition-delay: 0.3s;
+        transition-duration: 0.4s;
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+        
+
+    }
+    .mc2{
+    z-index: 1;
+    background-image: url(../../img/mock3.png);
+    background-size: 330px 200px;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.205);    
+    cursor: pointer;
+
+    background-color: rgba(170, 167, 164, 0.295);
+    width: 330px;
+    height: 200px;
+    margin: 30px;
+    }
+    .mc2:hover{
+        opacity: 0.85;
+        transition-delay: 0.3s;
+        transition-duration: 0.4s;
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    }
+    .mc3{
+        z-index: 1;
+    background-image: url(../../img/mock4.jpg); 
+    background-size: 350px 200px;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.205);    
+    cursor: pointer;
+
+
+        background-color: rgba(170, 167, 164, 0.295);
+        width: 330px;
+        height: 200px;
+        margin: 30px;
+    }
+    .mc3:hover{
+        opacity: 0.85;
+        transition-delay: 0.3s;
+        transition-duration: 0.4s;
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    }
+    /* .mc4{
+        z-index: 1;
+        background-image: url(../../img/mock2.jpg);
+    background-size: 350px 200px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.205);    
+
+
+        background-color: rgba(170, 167, 164, 0.295);
+        width: 330px;
+        height: 200px;
+        margin: 30px;
+    }
+    .mc5{
+        z-index: 1;
+        background-image: url(../../img/mock2.jpg);
+    background-size: 350px 200px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.205);    
+
+
+        background-color: rgb(12, 8, 3);
+        width: 330px;
+        height: 200px;
+        margin: 30px;
+    }
+    .mc6{
+        z-index: 1;
+        background-image: url(../../img/mock2.jpg);
+    background-size: 350px 200px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.205);    
+
+
+        background-color: rgba(170, 167, 164, 0.295);
+        width: 330px;
+        height: 200px;
+        margin: 30px;
+    } */

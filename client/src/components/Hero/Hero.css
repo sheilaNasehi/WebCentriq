@@ -1,0 +1,70 @@
+/* ::-webkit-scrollbar { 
+    display: none; 
+} */
+.abc {
+  max-height: 100%; }
+
+.blurimage {
+  opacity: 1; }
+
+.intro {
+  position: relative;
+  top: 45px;
+  left: -180px;
+  /* background-color: rgb(195, 195, 195); */
+  background-color: rgba(150, 150, 150, 0.007);
+  text-align: center;
+  padding: 40px; }
+
+.logo1 {
+  max-width: 90px;
+  padding: 5px;
+  border-bottom: 1px solid grey; }
+
+.agency {
+  color: white;
+  position: relative;
+  top: 20px;
+  left: -350px; }
+
+.hr1 {
+  border: 0;
+  height: 7px;
+  width: 100px;
+  background-color: #125ce6;
+  position: relative;
+  top: 10px;
+  left: -320px; }
+
+.we {
+  color: #ffffff;
+  font-weight: 100;
+  font-family: fantasy;
+  font-size: 75px;
+  margin-left: 20px; }
+
+.matn {
+  position: relative;
+  top: 40px;
+  left: 85px;
+  box-sizing: border-box;
+  /* opacity: 0.4; */ }
+
+.para1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  background-color: rgba(92, 95, 133, 0.007);
+  margin-right: 720px;
+  color: white; }
+
+/* .para2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5rem;
+      border-bottom: 1px solid gray;
+      border-top: 1px solid gray;
+      margin-right: 950px;
+      color: antiquewhite;
+      padding: 5px;
+      } */
+.secondimage {
+  height: 100px; }

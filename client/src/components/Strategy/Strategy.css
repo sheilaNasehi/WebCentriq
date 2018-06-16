@@ -1,0 +1,139 @@
+.highdiv{
+box-sizing: inherit;
+height: 2000px;
+}
+.strategy{
+    
+    height: 560px;
+}
+.text-head{
+    padding:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    font-size: 4rem;
+
+    background-color: #0A337F ; 
+    color: snow;
+    
+}
+.text-head:hover{
+background-color: rgb(255, 255, 255) ; 
+color: #0A337F ;
+transition: linear;
+transition-delay: 10ms;
+transition-duration: 1s;
+cursor: pointer;
+}
+
+.para{
+    
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: inherit;
+    
+    
+}
+.par5{
+    color: rgba(77, 78, 82, 0.836);
+    font-weight: 300;
+    font-size: 1.57em;
+    line-height: 1.4em;
+
+}
+.pa2{
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 2.2rem
+}
+.style-one{
+    border: 0;
+    height: 2px;
+    background-color: rgba(18, 92, 230, 0.664);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px
+}
+
+.image-left {
+    z-index: 1;
+    background-image: url(../../img/cod.jpeg);
+    background-size: 600px 350px;
+    background-repeat: no-repeat;
+    
+    height: 335px;
+    width: 600px;
+    position: relative;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.404);    
+    left: 80px;
+    background-color: aqua;
+    box-shadow: whitesmoke;
+    
+}
+.image-right {
+    z-index: -1;
+    background-image: url(../../img/man.jpg);
+    background-size: 600px 450px;
+    background-repeat: no-repeat;
+    height: 335px;
+    width: 600px;   
+    position: relative;
+    background-position: center;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.5);
+    top: -240px;
+    left: 580px;
+    background-color: rgb(39, 66, 66);
+    
+}
+
+.box1{
+    
+    z-index: 1;
+    position: relative;
+    top:-290px;
+    left: 320px;
+    height: 350px;
+    width: 300px ;
+    padding: 40px;
+    border: 2px solid rgba(18, 92, 230, 0.664);
+    color: rgba(10, 51, 127, 0.829);
+}
+.sidepic{
+    background-image: url(../../img/sidepic.jpg);
+    background-size: 650px 450px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 650px;
+    position: relative;
+    top:-200px;
+    left: 20px;
+    background-position: center;    
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.404);
+    
+}
+.sidetext{
+    
+    position: relative;
+    top:-900px;
+    left: 700px;
+    height: 900px;
+    width: 500px;
+    padding: 30px;
+    color: #3a3838;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 17px;
+    
+    
+}
+.list{
+    margin-top: 40px;
+    margin-left:25px;
+    list-style-type: disc;
+    font-weight: 400;
+}
+   
