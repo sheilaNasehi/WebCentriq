@@ -15,7 +15,6 @@ class Portfolio extends Component {
                 cursor={{ hideWhenDone: true }}
                 avgTypingSpeed={30}
                 startDelay={1000}
-              
                 > 
                 <h1 className="feu1">FEATURED PROJECTS</h1>
                 <Typist.Delay ms={500} />
@@ -25,6 +24,17 @@ class Portfolio extends Component {
                 </Typist>
                 <h1 className="dot">. . . </h1>
                 </div>  
+                <div className= "links">
+                    <Typist
+                        cursor={{ hideWhenDone: true }}
+                        avgTypingSpeed={30}
+                        startDelay={1000}
+                    > 
+                        <a className="mc1-link" href="http://maker-place.herokuapp.com/" target="_blank">Maker-Place</a></Typist>
+                        
+                    <a className="mc2-link" href="https://car-article.herokuapp.com/" target="_blank">Article-Scraper</a><Typist.Delay ms={500} />
+                    <a className="mc3-link" href="https://www.legacycruisessd.com/" target="_blank">Legacy-Crusis</a>
+                </div>
             <div className="mockup">
             <div className="mc1"></div>
             <div className="mc2"></div>

@@ -49,8 +49,8 @@
         
         display: flex;
         flex-wrap: wrap;
-        padding: 48px;
-        margin-left: 140px;
+        padding: -10px;
+        margin-left: 180px;
     }
     .mc1{
         z-index: 1;
@@ -72,10 +72,10 @@
         opacity: 0.80;
         transition-delay: 0.3s;
         transition-duration: 0.4s;
-        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
-        
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);  
 
     }
+    
     .mc2{
     z-index: 1;
     background-image: url(../../img/mock3.png);
@@ -164,3 +164,22 @@
         height: 200px;
         margin: 30px;
     } */
+
+     .links {
+        display: flex; 
+        flex-wrap: wrap; 
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-left: 310px;
+        color: snow;
+        cursor: pointer;
+     }
+
+     .mc2-link{
+        margin-left: 260px;      
+     }
+     .mc3-link {
+         margin-left: 220px;
+    }
+     

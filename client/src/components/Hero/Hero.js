@@ -1,4 +1,5 @@
 import './Hero.css';
+import Typist from 'react-typist';
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 
@@ -28,15 +29,24 @@ const MyComponent = () => (
     >
     <div className="copywriting">
     <div className="intro">
+          
+          
       {/* <img className="logo1" src={logo} alt="logi" />  */}
       <h3 className="agency">WebCentriq</h3>
+          
       <hr className="hr1" />
-      <h2 className="we">Web&MObile development group</h2>
+          <Typist
+            cursor={{ hideWhenDone: true }}
+            avgTypingSpeed={10}
+            startDelay={1000}
+          >
+           
+            <h2 className="we">Web&MObile development group</h2></Typist>
     </div>
     <div className="matn">
       <p className="para1">You need coolest website or Mobile application with highest functionality
       <br />
-      We Provide what you desigre</p>
+              We Provide what you desigre</p>
       <button className="btn btn-primary">Let's Take a Tour</button>
       </div>
       </div>
