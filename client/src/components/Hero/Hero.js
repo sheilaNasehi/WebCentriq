@@ -41,12 +41,12 @@ const MyComponent = () => (
             startDelay={1000}
           >
            
-            <h2 className="we">Web&MObile development group</h2></Typist>
+            <h2 className="we">Web & Mobile development group</h2></Typist>
     </div>
     <div className="matn">
       <p className="para1">You need coolest website or Mobile application with highest functionality
       <br />
-              We Provide what you desigre</p>
+              We Provide what you desire</p>
       <button className="btn btn-primary">Let's Take a Tour</button>
       </div>
       </div>
